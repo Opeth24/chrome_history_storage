@@ -1,0 +1,2 @@
+cd ..
+venv\Scripts\activate && cd extend_history && pyinstaller -F --add-data "client_secrets.json;client_secrets" --icon="D:\Projects\Projects\chrome_history_storage\blazer.ico" main.py && del /f main.spec && rmdir /s /q D:\Projects\Projects\chrome_history_storage\extend_history\build
